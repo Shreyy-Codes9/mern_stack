@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    /* main container */
+
+    .main{
+        height: 400px;
+        width: 50%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        gap: .5rem;
+        flex-direction: column;
+    }
+
+    /* boxes */
+    
+    .header{
+        height: 20%;
+        width: 100%;
+        background-color: rebeccapurple;
+    }
+    .middle{
+        height: 60%;
+        width: 100%;
+        background-color: rgb(9, 3, 15);
+        display: flex;
+        gap: .5rem;
+    }
+    .footer{
+        height: 20%;
+        width: 100%;
+        background-color: rebeccapurple;
+    }
+    .left-box{
+        background-color: red;
+        height: 100%;
+        width: 40%;
+    }
+    .right-box{
+        background-color: blue;
+        height: 100%;
+        width: 60%;    
+        display: flex;
+        justify-content:center;
+        align-items: flex-end;
+        gap: 1rem;
+    }
+    .rb{
+        background-color: white;
+        height: 100px;
+        width: 100px;
+        flex-grow: 1;
+        border: 1px solid black;
+    }
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header"></div>
+        <div class="middle">
+            <div class="left-box"></div>
+            <div class="right-box">
+                <div class="rb"></div>
+                <div class="rb"></div>
+                <div class="rb"></div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>

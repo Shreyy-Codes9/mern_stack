@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+       /* main */
+      .main{
+        height: 500px;
+        width: 50%;
+        border: 2px solid black;
+        /* box-sizing: border-box*/
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        /* gap: 1rem; */
+        /* justify-content:space-around; */
+      }
+
+      /* main box */
+
+      .box{
+        height: 100px;
+        width: 100px;
+        /* border: 2px solid black; */
+      }
+
+      /* 1st layout boxes */
+
+
+      .layout-1{
+        border: none;
+      }
+      .a1{
+        height: 40%;
+        width: 60%;
+        background-color: yellowgreen;
+      }
+      .a2{
+         height: 70%;
+        width: 40%;
+        background-color: rgb(46, 71, 46);
+      }
+      .a3{
+        height: 30%;
+        width: 60%;
+        background-color: rgb(93, 93, 93);
+        position: relative;
+        bottom: 149px;
+      }
+      .a4{
+        height: 30%;
+        width: 40%;
+        background-color: rgb(34, 59, 34);
+        position: relative;
+        right: 453.7px;
+
+      }
+      .a5{
+        height: 30%;
+        width: 60%;
+        background-color: rgb(0, 0, 0);
+        position: relative;
+        bottom: 149px;
+        left: 306px;
+
+      }
+
+
+      /* 2nd layout boxes */
+
+      .layout-2{
+        background-color: aqua;
+        border: none;
+      }
+
+    </style>
+    
+
+</head>
+<body>
+
+    <!-- 1st layout -->
+
+    <div class="main layout-1">
+        <div class="box a1"></div>
+        <div class="box a2"></div>
+        <div class="box a3"></div>
+        <div class="box a4"></div>
+        <div class="box a5"></div>
+    </div>
+    <br>
+    <!-- <div class="main layout-2"></div> -->
+</body>
+</html>

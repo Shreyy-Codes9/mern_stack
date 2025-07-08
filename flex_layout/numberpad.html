@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 320px;
+            width: 200px;
+            border: 2px solid black;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+        }
+        .top{
+            height: 50px;
+            width: 100%;
+            /* border: 1px solid black;/ */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        .numbers{
+            height: 260px;
+            width: 100%;
+            /* border: 1px solid black; */
+            display: flex;
+            box-sizing: border-box;
+            gap: .5rem;
+            position: relative;
+            flex-wrap: wrap;
+            font-weight: 800;
+            font-size: 2rem;
+        }
+        .top > .search-bar{
+            height: 30px;
+            width: 180px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        .numbers > .box{
+            height: 50px;
+            width: 50px;
+            border-radius: 10px;
+            border: 1px solid black;
+            position: relative;
+            left: 12px;
+            top: 3px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="top">
+            <div class="search-bar"></div>
+        </div>
+        <div class="numbers">
+            <div class="box tb">1</div>
+            <div class="box tb">2</div>
+            <div class="box tb">3</div>
+            <div class="box tb">4</div>
+            <div class="box tb">5</div>
+            <div class="box tb">6</div>
+            <div class="box tb">7</div>
+            <div class="box tb">8</div>
+            <div class="box tb">9</div>
+            <div class="box tb">del</div>
+            <div class="box tb">0</div>
+            <div class="box tb">ok</div>
+        </div>
+    </div>
+</body>
+</html>
