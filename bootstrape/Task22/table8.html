@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            height: 100vh;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main container-fluid  ">
+        <div class=" container border border-3 border-dark mx-auto"> 
+            <h1 class="text-light">Table 8 (nested1) </h1>
+            <table class="table table-bordered table-4">
+                <tr>
+                    <th > Product id</th>
+                    <th> Product Name</th>
+                    <th>Amount</th>
+                    <th>order date</th>
+                </tr>
+                <td>
+                    <table class="table table-borderes border-red border-4">
+                        <tr>
+                            <th>#id</th>
+                            <th>Amount</th>
+                            <th>quantity</th>
+                        </tr>
+                    </table>
+                </td>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
