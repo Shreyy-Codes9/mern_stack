@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <style>
+            .grid1{
+                height: 770px;
+                width: 800px;
+                box-sizing: border-box;
+            }
+            .child{
+                height: 150px;
+            }
+            .ch1 , .ch2 {
+                background-color: white;
+            }
+            .grid2{
+                height: 770px;
+                width: 800px;
+                box-sizing: border-box;
+            }
+        </style>
+</head>
+<body>
+    <div class="grid1  container border border-2 border-black ">
+        <div class="header row">
+            <div class="col-12 bg-dark p-3">
+                <h4 class="text-light">grid layout 1</h4>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="row gap-3">
+                <div class="child col bg-primary ms-4"></div>
+                <div class="child col bg-warning"></div>
+                <div class="child col bg-danger"></div>
+                <div class="child col bg-info"></div>
+            </div>
+            <div class="row gap-3 mt-4">
+                <div class="child col bg-primary ms-4"></div>
+                <div class="child col bg-info"></div>
+                <div class="child col bg-danger"></div>
+                <div class="child col bg-warning"></div>
+            </div>
+            <div class="row gap-3 mt-4">
+                <div class="child col bg-danger ms-4"></div>
+                <div class="child col bg-success"></div>
+                <div class="child col bg-warning"></div>
+                <div class="child col bg-info"></div>
+            </div>
+            <div class="row gap-3 mt-4">
+                <div class="child col bg-primary ms-4"></div>
+                <div class="child col bg-warning"></div>
+                <div class="child ch1 col "></div>
+                <div class="child ch2 col "></div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="grid2 container border border-2 border-black"></div>
+</body>
+</html>

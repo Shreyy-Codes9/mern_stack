@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-offline/css/bootstrap.css">
+    <script src="./bootstrap-offline/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid bg-primary">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg text-warning d-flex align-items-center justify-content-center">
+
+          <span class="navbar-brand py-0 fw-bold text-warning mb-0">logo</span>
+          
+          <button
+            class="navbar-toggler bg-warning" data-bs-toggle="offcanvas" data-bs-target="#OffCanvas">
+            <span class="navbar-toggler-icon btn-light"></span>
+          </button>
+
+          <div class="offcanvas offcanvas-end offcanvas-lg bg-dark text-warning d-flex align-items-end" id="OffCanvas">
+            <div class="offcanvas-header d-flex align-items-end">
+              <button class="btn btn-close btn-close-white d-lg-none" data-bs-dismiss="offcanvas"></button>
+            </div>
+
+            <div class="offcanvas-body">
+              <ul class="navbar-nav ms-auto fw-bold">
+                <li class="nav-item">
+                  <a class="nav-link text-warning" href="">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-warning" href="">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-warning" href="">My Orders</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-warning" href="">Logout</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>

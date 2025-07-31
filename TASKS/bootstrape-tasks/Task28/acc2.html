@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+   <style>
+     .container{ width: 550px; margin-top: 20px;}
+   </style>
+</head>
+<body>
+    <div class="container">
+        <div class="accordion" id="ac">
+            <div class="accordion-item" data-bs-parent="#ac">
+            <div class="accordion-header">
+                <button class="accordion-button collapsed" data-bs-target="#child" data-bs-toggle="collapse"> What is css?</button>
+            </div>
+                 <div class="accordion-collapse collapse" data-bs-parent="#ac" id="child">
+                       <div class="accordion-body">
+                           <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of
+                             a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML).
+                              CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
+                           </p>
+                       </div>
+                 </div>
+            </div>
+             <div class="accordion-item" data-bs-parent="#ac1">
+            <div class="accordion-header">
+                <button class="accordion-button collapsed" data-bs-target="#child1" data-bs-toggle="collapse"> Three types of css?</button>
+            </div>
+                 <div class="accordion-collapse collapse" data-bs-parent="#ac1" id="child1">
+                       <div class="accordion-body">
+                           <p>
+                              The three types of CSS are external, internal, and inline. External CSS is a file that HTML
+                               files will link to. Internal CSS is specified at the beginning of an HTML document. Inline CSS 
+                               is written for a specific element in the HTML document.
+                           </p>
+                       </div>
+                 </div>
+            </div>
+             <div class="accordion-item" data-bs-parent="#ac2">
+            <div class="accordion-header">
+                <button class="accordion-button collapsed" data-bs-target="#child2" data-bs-toggle="collapse"> What is css used for?</button>
+            </div>
+                 <div class="accordion-collapse collapse" data-bs-parent="#ac2" id="child2">
+                       <div class="accordion-body">
+                           <p>
+                              Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a
+                               document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML). 
+                               CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+                           </p>
+                       </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

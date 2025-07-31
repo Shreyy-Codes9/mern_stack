@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../bootstrap-offline/css/bootstrap.css">
+    <script src="../../bootstrap-offline/js/bootstrap.bundle.min.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #con1{
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="container bg-dark-subtle p-5" id="con1">
+
+        <button class="btn btn-success" data-bs-target="#ex1" data-bs-toggle="modal">
+            open
+        </button>
+
+        <div class="modal" id="ex1">
+            <div class="modal-dialog">
+                <div class="modal-content bg-warning text-primary">
+                    <div class="modal-header">
+                        <div class="d-flex w-100 justify-content-around">
+                            <h1>Modal example</h1>
+                            <button class="btn-close btn-primary btn-outline-danger" type="button" data-bs-dismiss="modal"></button>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur assumenda aperiam ex repudiandae veritatis corporis obcaecati sunt nihil, commodi, perferendis inventore quibusdam laboriosam soluta facere. Vel maiores ducimus natus possimus.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary btn-outline-success">save</button>
+                        <button class="btn btn-danger btn-outline-dark" data-bs-dismiss="modal" >close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>

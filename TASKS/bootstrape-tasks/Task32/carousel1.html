@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel Variation 1</title>
+    <link rel="stylesheet" href="../../bootstrap-offline/css/bootstrap.css">
+    <script src="../../bootstrap-offline/js/bootstrap.bundle.min.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .carousel-item > .content{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+        }
+    </style>
+</head>
+<body>
+        <center><h1>variation 1</h1> </center>
+
+    <div class="container p-5 border border-dark border-3">
+        <div class="carousel slide carousel-fade" id="ex1" >
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#ex1" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#ex1" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#ex1" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#ex1" data-bs-slide-to="3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="content">
+                        <h1>Pic 1</h1>
+                        <img class="img-fluid d-block w-100" src="../media/n2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="content">
+                        <h1>Pic 2</h1>
+                        <img class="img-fluid d-block w-100" src="../media/download (21).jpg" alt="">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="content">
+                        <h1>Pic 3</h1>
+                        <img class="img-fluid d-block w-100" src="../media/Indie Game Background.jpg" alt="">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="content">
+                        <h1>Pic 4</h1>
+                        <img class="img-fluid d-block w-100" src="../media/n.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#ex1">
+                <span class="carousel-control-prev-icon bg-dark rounded-circle"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#ex1">
+                <span class="carousel-control-next-icon bg-dark rounded-circle"></span>
+            </button>
+        </div>
+    </div>
+
+
+    <hr>
+    <center><h1>variation 2</h1> </center>
+     <div class="container p-5 border border-dark border-3">
+        <div class="carousel slide" id="ex2" >
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="content">
+                        <h1>Pic 1</h1>
+                        <img class="img-fluid d-block w-100" src="../media/n2.jpg" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Nature View</h5>
+                            <p>beautiful Nature</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="content">
+                        <h1>Pic 2</h1>
+                        <img class="img-fluid d-block w-100" src="../media/download (21).jpg" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Sunset</h5>
+                            <p>golden hour</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="content">
+                        <h1>Pic 3</h1>
+                        <img class="img-fluid d-block w-100" src="../media/Indie Game Background.jpg" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Forest</h5>
+                            <p> lake forest</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="content">
+                        <h1>Pic 4</h1>
+                        <img class="img-fluid d-block w-100" src="../media/n.jpg" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Night Forest</h5>
+                            <p>forest</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#ex2">
+                <span class="carousel-control-prev-icon bg-dark rounded-circle"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#ex2">
+                <span class="carousel-control-next-icon bg-dark rounded-circle"></span>
+            </button>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>

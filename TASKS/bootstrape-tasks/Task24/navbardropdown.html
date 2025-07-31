@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <style>
+        .search-bar input{border-radius: 20px; padding: 5px 15px; border: none;}
+        .search-bar button{border-radius: 20px; margin-left: 5px; border: none; background-color: yellow; color: black; padding: 5px 15px;}
+    </style>
+</head>
+<body>
+     <div class="container-fluid bg-dark">
+         <div class="container bg-dark">
+             <nav class="navbar navbar-expand-lg text-light align-item-center ">
+                  <h1 class="navbar-brand text-light">LOGO </h1>
+                  <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-item">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse " id="menu-item">
+                    <ul class="navbar-nav me-auto text-light">
+                        <li><a class="nav-link active text-light" href="">HOME</a></li>
+                        <li class="nav-item dropdown">
+                               <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown">
+                                 SERVICE
+                               </a>
+                            <ul class="dropdown-menu bg-warning">
+                                <li><a class="dropdown-item" href="#">TRAVEL</a></li>
+                                <li><a class="dropdown-item" href="#">REPAIR</a></li>
+                                <li><a class="dropdown-item" href="#">COUSTOMER CARE</a></li>
+                            </ul>
+                        <li><a class="nav-link text-light" href="">COURCES</a></li>
+                        <li><a class="nav-link text-light" href="">HELP</a></li>
+                    </ul>
+                    <form class="d-flex search-bar">
+                        <input type="search" placeholder="Search">
+                        <button type="search">SEARCH</button>
+                    </form>
+                  </div>
+             </nav>
+         </div>
+     </div>
+</body>
+</html>

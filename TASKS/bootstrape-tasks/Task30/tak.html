@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrollspy Practice</title>
+
+    <link rel="stylesheet" href="../bootstrap-offline/css/bootstrap.css">
+    <script src="../bootstrap-offline/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        body {
+            position: relative;
+        }
+        .spy-section {
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#spy-navbar" data-bs-offset="80" tabindex="0">
+
+    <!-- Navbar -->
+    <div class="navbar bg-light px-5 py-3 sticky-top border-bottom" id="spy-navbar">
+        <ul class="nav nav-pills gap-3">
+            <li class="nav-item">
+                <a href="#section-1" class="nav-link active">Section 1</a>
+            </li>
+            <li class="nav-item">
+                <a href="#section-2" class="nav-link">Section 2</a>
+            </li>
+            <li class="nav-item">
+                <a href="#section-3" class="nav-link">Section 3</a>
+            </li>
+            <li class="nav-item">
+                <a href="#section-4" class="nav-link">Section 4</a>
+            </li>
+            <li class="nav-item">
+                <a href="#section-5" class="nav-link">Section 5</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Sections -->
+    <div id="section-1" class="spy-section bg-dark text-light d-flex justify-content-center align-items-center">
+        <h1>This is Section 1</h1>
+    </div>
+    <div id="section-2" class="spy-section bg-danger text-light d-flex justify-content-center align-items-center">
+        <h1>This is Section 2</h1>
+    </div>
+    <div id="section-3" class="spy-section bg-warning text-dark d-flex justify-content-center align-items-center">
+        <h1>This is Section 3</h1>
+    </div>
+    <div id="section-4" class="spy-section bg-info text-light d-flex justify-content-center align-items-center">
+        <h1>This is Section 4</h1>
+    </div>
+    <div id="section-5" class="spy-section bg-success text-light d-flex justify-content-center align-items-center">
+        <h1>This is Section 5</h1>
+    </div>
+
+</body>
+</html>
